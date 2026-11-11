@@ -1,0 +1,11 @@
+ultralytics>=8.3,<9
+streamlit>=1.40,<2
+streamlit-webrtc>=0.47,<1
+opencv-python>=4.10,<6
+numpy>=1.26,<3
+pandas>=2.1,<4
+plotly>=5.20,<7
+matplotlib>=3.8,<4
+Pillow>=10,<13
+yt-dlp>=2025.10.22,<2027
+lap>=0.5.12

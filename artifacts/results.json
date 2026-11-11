@@ -1,0 +1,238 @@
+{
+  "evaluation_split": "test",
+  "test_images": 336,
+  "confidence_threshold_for_failure_analysis": 0.25,
+  "iou_threshold_for_failure_analysis": 0.5,
+  "precision": 0.41173500539219976,
+  "recall": 0.25118483412322273,
+  "f1_score": 0.31201838553440325,
+  "map50": 0.24365650876094214,
+  "map50_95": 0.09784591624931105,
+  "failure_analysis_counts_at_confidence_threshold": {
+    "true_positives": 40,
+    "false_positives": 12,
+    "false_negatives": 171
+  },
+  "failure_examples": [
+    {
+      "image": "data\\processed\\images\\test\\test_00002.jpg",
+      "missed_ground_truth_boxes": 1,
+      "unmatched_predictions": 0,
+      "missed_boxes_xyxy": [
+        [
+          396.000256,
+          178.999695,
+          442.999808,
+          197.99986500000003
+        ]
+      ],
+      "unmatched_prediction_boxes": []
+    },
+    {
+      "image": "data\\processed\\images\\test\\test_00005.jpg",
+      "missed_ground_truth_boxes": 2,
+      "unmatched_predictions": 0,
+      "missed_boxes_xyxy": [
+        [
+          882.999296,
+          333.0,
+          931.999744,
+          403.99968
+        ],
+        [
+          924.0002559999999,
+          435.0,
+          980.000768,
+          485.0
+        ]
+      ],
+      "unmatched_prediction_boxes": []
+    },
+    {
+      "image": "data\\processed\\images\\test\\test_00014.jpg",
+      "missed_ground_truth_boxes": 1,
+      "unmatched_predictions": 0,
+      "missed_boxes_xyxy": [
+        [
+          628.99968,
+          97.00032,
+          665.999872,
+          109.00031999999999
+        ]
+      ],
+      "unmatched_prediction_boxes": []
+    },
+    {
+      "image": "data\\processed\\images\\test\\test_00021.jpg",
+      "missed_ground_truth_boxes": 0,
+      "unmatched_predictions": 1,
+      "missed_boxes_xyxy": [],
+      "unmatched_prediction_boxes": [
+        {
+          "box": [
+            645.2767333984375,
+            174.16763305664062,
+            705.5843505859375,
+            206.83023071289062
+          ],
+          "confidence": 0.26398584246635437
+        }
+      ]
+    },
+    {
+      "image": "data\\processed\\images\\test\\test_00022.jpg",
+      "missed_ground_truth_boxes": 1,
+      "unmatched_predictions": 0,
+      "missed_boxes_xyxy": [
+        [
+          918.000128,
+          452.999925,
+          955.9997440000001,
+          479.99983499999996
+        ]
+      ],
+      "unmatched_prediction_boxes": []
+    },
+    {
+      "image": "data\\processed\\images\\test\\test_00024.jpg",
+      "missed_ground_truth_boxes": 2,
+      "unmatched_predictions": 0,
+      "missed_boxes_xyxy": [
+        [
+          694.000128,
+          84.00031999999999,
+          724.99968,
+          103.0
+        ],
+        [
+          753.000448,
+          250.00032000000002,
+          974.0001279999999,
+          573.0
+        ]
+      ],
+      "unmatched_prediction_boxes": []
+    },
+    {
+      "image": "data\\processed\\images\\test\\test_00026.jpg",
+      "missed_ground_truth_boxes": 1,
+      "unmatched_predictions": 0,
+      "missed_boxes_xyxy": [
+        [
+          435.00031999999993,
+          197.99968000000004,
+          957.000704,
+          535.0
+        ]
+      ],
+      "unmatched_prediction_boxes": []
+    },
+    {
+      "image": "data\\processed\\images\\test\\test_00034.jpg",
+      "missed_ground_truth_boxes": 0,
+      "unmatched_predictions": 1,
+      "missed_boxes_xyxy": [],
+      "unmatched_prediction_boxes": [
+        {
+          "box": [
+            457.28204345703125,
+            198.65548706054688,
+            524.4070434570312,
+            227.66531372070312
+          ],
+          "confidence": 0.3383839726448059
+        }
+      ]
+    },
+    {
+      "image": "data\\processed\\images\\test\\test_00035.jpg",
+      "missed_ground_truth_boxes": 1,
+      "unmatched_predictions": 0,
+      "missed_boxes_xyxy": [
+        [
+          408.000512,
+          225.99968,
+          469.000192,
+          239.00000000000003
+        ]
+      ],
+      "unmatched_prediction_boxes": []
+    },
+    {
+      "image": "data\\processed\\images\\test\\test_00044.jpg",
+      "missed_ground_truth_boxes": 2,
+      "unmatched_predictions": 0,
+      "missed_boxes_xyxy": [
+        [
+          721.999872,
+          187.99968,
+          828.99968,
+          301.0
+        ],
+        [
+          841.999872,
+          458.0,
+          868.0002559999999,
+          478.0
+        ]
+      ],
+      "unmatched_prediction_boxes": []
+    },
+    {
+      "image": "data\\processed\\images\\test\\test_00046.jpg",
+      "missed_ground_truth_boxes": 1,
+      "unmatched_predictions": 0,
+      "missed_boxes_xyxy": [
+        [
+          592.999936,
+          113.00026499999998,
+          640.999936,
+          130.99999499999998
+        ]
+      ],
+      "unmatched_prediction_boxes": []
+    },
+    {
+      "image": "data\\processed\\images\\test\\test_00052.jpg",
+      "missed_ground_truth_boxes": 3,
+      "unmatched_predictions": 1,
+      "missed_boxes_xyxy": [
+        [
+          623.9994879999999,
+          213.000165,
+          667.999744,
+          229.000275
+        ],
+        [
+          591.9994879999999,
+          234.00026999999997,
+          635.999744,
+          261.99998999999997
+        ],
+        [
+          606.999552,
+          264.00023999999996,
+          645.9996160000001,
+          284.00022
+        ]
+      ],
+      "unmatched_prediction_boxes": [
+        {
+          "box": [
+            596.8966064453125,
+            237.3141632080078,
+            643.1119995117188,
+            283.5671081542969
+          ],
+          "confidence": 0.2536531388759613
+        }
+      ]
+    }
+  ],
+  "failure_images_directory": "artifacts/failures",
+  "confusion_matrix": "runs\\pothole-test-evaluation\\confusion_matrix.png",
+  "training_graphs": "runs/pothole-yolo-cpu/results.png",
+  "evaluation_run": "runs\\pothole-test-evaluation",
+  "dataset_source": "https://data.mendeley.com/datasets/t576ydh9v8/4",
+  "dataset_license": "CC BY 4.0"
+}

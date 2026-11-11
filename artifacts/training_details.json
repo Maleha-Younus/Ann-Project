@@ -1,0 +1,13 @@
+{
+  "weights": "artifacts/best.pt",
+  "training_run": "runs\\pothole-yolo-cpu",
+  "pretrained_model": "YOLO11n (yolo11n.pt)",
+  "epochs_requested": 5,
+  "epochs_completed": 5,
+  "image_size": 320,
+  "batch_size": 4,
+  "device": "CPU",
+  "training_images": 1564,
+  "validation_images": 335,
+  "test_images": 336
+}
